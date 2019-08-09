@@ -113,7 +113,7 @@ Laravel 5.8 with user authentication, registration with email confirmation, soci
     * ```\q```
 3. From the projects root run `cp .env.example .env`
 4. Configure your `.env` file
-5.
+5. Run `sudo mv composer.phar /usr/local/bin/composer`
 6. Run `composer update` from the projects root folder
 7. From the projects root folder run:
 ```
