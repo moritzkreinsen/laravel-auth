@@ -113,18 +113,19 @@ Laravel 5.8 with user authentication, registration with email confirmation, soci
     * ```\q```
 3. From the projects root run `cp .env.example .env`
 4. Configure your `.env` file
-5. Run `composer update` from the projects root folder
-6. From the projects root folder run:
+5.
+6. Run `composer update` from the projects root folder
+7. From the projects root folder run:
 ```
 php artisan vendor:publish --tag=laravelroles &&
 php artisan vendor:publish --tag=laravel2step
 ```
-7. From the projects root folder run `sudo chmod -R 755 ../laravel-auth`
-8. From the projects root folder run `php artisan key:generate`
-9. From the projects root folder run `php artisan migrate`
-10. From the projects root folder run `composer dump-autoload`
-11. From the projects root folder run `php artisan db:seed`
-12. Compile the front end assets with [npm steps](#using-npm) or [yarn steps](#using-yarn).
+8. From the projects root folder run `sudo chmod -R 755 ../laravel-auth`
+9. From the projects root folder run `php artisan key:generate`
+10. From the projects root folder run `php artisan migrate`
+11. From the projects root folder run `composer dump-autoload`
+12. From the projects root folder run `php artisan db:seed`
+13. Compile the front end assets with [npm steps](#using-npm) or [yarn steps](#using-yarn).
 
 #### Build the Front End Assets with Mix
 ##### Using Yarn:
